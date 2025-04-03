@@ -1,0 +1,6 @@
+url  
+missing-scheme.com
+http:// bad domain.com
+bad://format
+https://
+javascript:alert(1)

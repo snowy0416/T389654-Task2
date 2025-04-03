@@ -1,0 +1,5 @@
+URL,Reason
+missing-scheme.com,Missing http:// or https://
+bad://format,Missing http:// or https://
+https://,Invalid domain
+javascript:alert(1),Missing http:// or https://
