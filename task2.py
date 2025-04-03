@@ -63,8 +63,8 @@ def main():
     print(f"\n{Fore.CYAN}Processing {total_urls} URLs from {input_file}{Style.RESET_ALL}")
 
     # Prepare output files
-    with open('Task 2 - Results.csv', 'w', newline='') as res_f, \
-         open('Invalid_URLs.csv', 'w', newline='') as inv_f:
+    with open('Task 2 - Results.csv', 'w', newline='', encoding="utf-8") as res_f, \
+         open('Invalid_URLs.csv', 'w', newline='', encoding="utf-8") as inv_f:
 
         res_writer = csv.writer(res_f)
         inv_writer = csv.writer(inv_f)
