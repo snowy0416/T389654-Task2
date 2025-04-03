@@ -43,18 +43,4 @@ Python 3.x
 requests library (install using pip install requests)
 
 
-## Testing
-The script includes 5 test cases in test_urls.csv covering:
 
-Valid URLs
-
-Missing schemes
-
-Malformed domains
-
-Invalid protocols
-
-Empty entries
-
-Run tests with:
-python task2.py test_urls.csv
